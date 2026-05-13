@@ -1,0 +1,171 @@
+<html> 
+ <head>
+    <title>Login</title>
+    
+    <style type="text/css">
+    body 
+      {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-image: url(Resources/bg3.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+      }
+    
+    .form-background 
+       {
+        background-color: rgba(0, 0, 0, 0.813);
+        padding: 10px 430px 80px; 
+        border-radius: 8px;
+        margin: 140px auto 30px;
+        width: 100%;
+        max-width: 500px;
+       }
+    
+    .form-container 
+      {
+        text-align: left;
+      }
+    
+    .form-row  
+      {
+        display: flex;
+        justify-content: flex-start; 
+        align-items: center;
+        margin-bottom: 20px;
+      }
+    
+    .form-row label
+       {
+        flex: 1;
+        text-align: left;
+        font-size: 20px;
+       }
+    
+    .form-row input
+       {
+        flex: 2;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1em;
+       }
+    
+    
+    h1
+       {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+       }
+    
+    .buttons 
+       {
+        display: flex;
+        justify-content: center;
+        gap: 10px; 
+        margin-top: 70px;
+       }
+    
+    button 
+       {
+        width: 20%;
+        padding: 1px;
+        border: none;
+        border-radius: 4px;
+        font-size: 15px;
+        cursor: pointer;
+       }
+    
+    .login
+       {
+        background-color: #ffffff;
+        color: black;
+       }
+    
+    .clear 
+       {
+        background-color: #ffffff;
+        color: black;
+       }
+    .signup 
+       {
+        background-color: #ffffff;
+        color: black;
+       }
+    
+    .menu 
+      {
+        background-color: rgba(0, 0, 0, 0.85);
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px 0;
+      }
+    
+    .menu ul
+      {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+    
+    .menu li 
+       {
+        margin: 0 15px;
+       }
+    
+    .menu li a
+       {
+        text-decoration: none;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 6px;
+        display: inline-block;
+       }
+    
+    .menu li a:hover 
+      {
+        background-color: #41cdff;
+      }
+        
+   </style>
+
+ </head>
+ <body>
+
+    <div class="form-background">
+        <div class="form-container">
+            <h1>LOGIN</h1>
+            <form method="post" action="Login.php">
+                <div class="form-row">
+                    <label for="username">User Name:</label>
+                    <input type="text" name="user" placeholder="Enter your User Name" required>
+                </div>
+                <div class="form-row">
+                    <label for="password">Password:</label>
+                    <input type="password" name="psw" placeholder="Enter your password" required>
+                </div>
+
+                <div class="buttons">
+                    <button type="submit" class="login">LOGIN</button>
+                    <button type="reset" class="clear">CLEAR</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="Home.html">HOME</a></li>
+            <li><a href="About_us.html">ABOUT US</a></li>
+            <li><a href="Signup.html">SIGNUP</a></li>
+        </ul>
+    </nav>
+ </body>
+</html>
