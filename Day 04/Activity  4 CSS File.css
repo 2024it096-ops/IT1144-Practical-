@@ -1,0 +1,26 @@
+body{
+	background-color:Pink;
+	}
+
+
+h1{
+	color:black;
+	font-weight:5px;
+	font-size:45px;
+	margin:30px;
+}
+table {
+	border:2px;
+	background-color:yellow;
+	}	
+
+th{
+	color:red;
+	font-weight:5PX;
+}
+
+td{
+	color:gray;
+	font-size:15px;
+}
+

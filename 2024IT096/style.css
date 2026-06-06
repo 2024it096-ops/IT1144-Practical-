@@ -1,0 +1,87 @@
+body{
+	background-image:url("hotel.jpg");
+	background-size:cover;
+}
+.header{
+	height:100px;
+	
+}
+
+
+ul{
+	list-style:none;
+	display:flex;
+	justify-content:flex-end;
+	margin-top:-60px;
+	
+}
+li a{
+	margin-left:20px;
+	text-decoration:none;
+	color:white;
+	
+	
+}
+img{
+	border-radius:60px;
+	margin-left:100px;
+	border:1px solid red;
+}
+img:hover{
+	cursor:pointer;
+}
+.main{
+	text-align:center;
+	color:white;
+	margin-top:140px;
+}
+
+.form{
+	margin:120px auto;
+	background-color:white;
+	height:445PX;
+	width:500px;
+	padding:30px;
+
+}
+.textbox{
+	display:block;
+}
+input{
+	margin-top:20px;
+	font-size:20px;
+	width:100%;
+	
+
+}
+button{
+	width:100px;
+	height:30px;
+	border-radius:50px;
+	border:none;
+}
+
+#submit:hover{
+	background-color:blue;
+	transition:0.1s;
+	color:white;
+}
+form{
+	border:1px solid gray;
+	padding:10px;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-size:15px;
+}
+h2{
+	font-size:15px;
+}
+.back{
+	background-color:rgba(0,0,0,0.5);
+	height:100%;
+	width:100%;
+	margin:0px 0px 0px 0px;
+}
+
