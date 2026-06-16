@@ -1,0 +1,127 @@
+.header{
+	margin:-10px 0px 0px 0px;
+	width:100%;
+	height:90px;
+	background-color:darkblue;
+	
+	
+}
+.header ul{
+	list-style:none;
+	display:flex;
+	justify-content:flex-end;
+	margin-top:-50px;
+	margin-right:20px;
+}
+a{
+	text-decoration:none;
+	color:#D4AF37;
+	margin-left:30px;
+	font-size:20px;
+}
+a:hover{
+	background-color:rgba(255,255,255,255);
+	border-radius:6px;
+}
+input{
+	width:300px;
+	font-size:20px;
+	border-radius:10px;
+}
+img{
+	border-radius:10px;
+	margin-left:-30px;
+	margin-top:2px;
+}
+.searchbtn{
+	display:flex;
+	margin-right:50px;
+}
+.img{
+	margin-left:50px;
+}
+
+
+      .aboutbody 
+          {
+            background:linear-gradient(rgba(0,0,0,0.3)),url("Resources/bg1.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+          }
+
+        .details
+          {
+            background-color: rgba(255, 255, 255, 0.78); 
+			box-shadow:10px 4px 12px rgba(0,0,0,0.5);
+            margin-top: 20px;
+            color: black;
+			font-weight:bold;
+			font-size:18px;
+            padding: 1;
+            line-height: 1.5;
+			border-radius:10px;
+			width:450px;
+			height:440px;
+          }
+
+
+        .paragraph
+          {
+            text-align: center;
+            text-align: justify;
+            text-justify: inter-word; 
+            letter-spacing: 0.1em; 
+            padding:  20px;
+          }
+		  .section1{
+			  display:flex;
+			  gap:30px;
+			  margin-left:50px;
+		  }
+		  .section2{
+			  display:flex;
+			   gap:30px;
+			   margin-left:50px;
+			   margin-top:50px;
+			   margin-bottom:50px;
+		  }
+		  h2{
+			  text-align:center;
+			  font-size:15px;
+			  font-weight:bold;
+			  background-color:black;
+			  color:white;
+			  padding:10px;
+			  border-radius:30px;
+		  }
+		  .details:hover{
+			  transform:scale(1.1);
+			  transition:0.3s;
+		  }
+.footer{
+	display:flex;
+	gap:60px;
+	justify-content:center;
+	height:60px;
+	width:100%;
+	background-color:darkblue;
+	color:white;
+	margin-top:20px;
+	margin-bottom:0px;
+	text-align:center;
+	padding:5px;
+	font-size:15px;
+	word-spacing:5px;
+	padding:10px;
+}
+.icon{
+	border-radius:10px;
+	cursor:pointer;
+}
+.icon:hover{
+	transform:scale(1.1);
+	transition:0.2s;
+}

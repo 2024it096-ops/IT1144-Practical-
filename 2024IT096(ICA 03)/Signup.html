@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="singup.css">
+</head>
+<body>
+
+<div class="header">
+    <img class="img" src="Resources/logo.png" width="170px" height="90px">
+    <ul class="nav">
+        <li>
+            <div class="searchbtn">
+                <input type="text">
+                <img id="sicon" src="Resources/si1.webp" height="24px" width="30px">
+            </div>
+        </li>
+        <li><a href="login.html"> LOGIN </a></li>
+        <li><a href="About.html"> ABOUT </a></li>
+        <li><a href="Signup.html"> SIGNUP </a></li>
+        <li><a href="Courses.html"> COURSES </a></li>
+        <li><a href="Help.html"> CONTACT </a></li> 
+    </ul>
+</div>
+
+<div class="form-background">
+    <h1 align="center">Enter Your True Information Below...</h1>
+
+    <form id="signupForm" onsubmit="return validateSignup(event)">
+        
+        <div class="form-row">
+            <label>Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div class="form-row">
+            <label>NIC No</label>
+            <input type="text" id="nic" name="nic">
+        </div>
+
+        <div class="form-row">
+            <label>Address</label>
+            <input type="text" id="address" name="address">
+        </div>
+
+        <div class="form-row">
+            <label>Gender</label>
+            <input type="radio" name="gen" value="Male" checked>Male
+            <input type="radio" name="gen" value="Female">Female
+        </div>
+
+        <div class="form-row">
+            <label>Mobile No</label>
+            <input type="tel" id="mno" name="mno" placeholder="123456789">
+        </div>
+
+        <div class="form-row">
+            <label>E-mail</label>
+            <input type="email" id="email" name="e-mail" placeholder="example@gmail.com">
+        </div>
+
+        <div class="form-row">
+            <label>Course</label>
+            <select id="course" name="course">
+                <option value="DIPLOMA IN INFORMATION & COMMUNICATION TECHNOLOGY (DICT)">DIPLOMA IN INFORMATION & COMMUNICATION TECHNOLOGY (DICT)</option>
+                <option value="DIPLOMA IN ENGINEERING TECHNOLOGY (DET)">DIPLOMA IN ENGINEERING TECHNOLOGY (DET)</option>
+                <option value="BACHELOR IN INFORMATION & COMMUNICATION TECHNOLOGY (BICT HONS)">BACHELOR IN INFORMATION & COMMUNICATION TECHNOLOGY (BICT HONS)</option>
+                <option value="BACHELOR OF ENGINEERING TECHNOLOGY HONOURS (BET HONS)">BACHELOR OF ENGINEERING TECHNOLOGY HONOURS (BET HONS)</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Register" name="register">
+        <input type="button" value="Search" name="search">
+        <input type="button" value="Update" name="update">
+        <input type="button" value="Delete" name="delete">
+    </form>
+</div>
+
+<div class="footer">
+    <h3>No.123, Tech Park Road, Colombo 05 &nbsp;&nbsp;&nbsp;| Tel: +94 112123456 &nbsp;&nbsp;&nbsp;| Email: info@steaven.tech</h3>
+    <img class="icon" src="Resources/fb.webp" height="50px" width="50px">
+    <img class="icon" src="Resources/tw.webp" height="50px" width="50px">
+    <img class="icon" src="Resources/inst.jpeg" height="50px" width="50px">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

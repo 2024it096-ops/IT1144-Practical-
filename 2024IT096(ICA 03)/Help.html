@@ -1,0 +1,60 @@
+﻿<html>
+  <head>   
+    <title>Help</title>
+    <link rel="stylesheet" href="help.css">
+  </head>
+  <body class="aboutbody">
+	
+<div class="header">
+    <img class="img" src="Resources/logo.png" width="170px" height="90px">
+
+    <ul class="nav">
+        <li><div class="searchbtn"><input type="text" >
+        <img id="sicon" src="Resources/si1.webp" height="24px" width="30px"></div></li>
+
+        <li><a href="login.html"> LOGIN </a></li>
+        <li><a href="About.html"> ABOUT </a></li>
+        <li><a href="Signup.html"> SIGNUP </a></li>
+        <li><a href="Courses.html"> COURSES </a></li>
+        <li><a href="Help.html"> CONTACT </a></li> 
+    </ul>
+</div>
+
+<div class="main">
+    <div class="details">   
+        If you want to register for the courses available on our campus. If you are not already registered, 
+        click on Signup on the Login Page, fill out the form and submit.Then you can access
+        your account through Login. There you will be shown the course you have registered for and other details.
+        Contact us for more details...
+        <p>  
+            Mobile Number:-0812365001 <br>
+            Email:- stevens@gmail.com
+        </p>
+    </div>
+
+    <div class="details2">
+        <form id="contactForm" onsubmit="return handleContactSubmit(event)">
+            <input type="text" id="cfname" placeholder="Enter Name ">
+            <input type="email" id="cfemail" placeholder="Enter Email Address ">
+            <input type="text" id="cfcourse" placeholder="Enter Course ">
+            <textarea placeholder="Do You have a any problem put here" id="textarea"></textarea>
+
+            <div class="btn">
+                <input type="submit" class="btnsubmit" value="Submit">
+                <input type="reset" class="clear"value="Clear">
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    <h3>No.123, Tech Park Road, Colombo 05 &nbsp;&nbsp;&nbsp; | Tel: +94 112123456 &nbsp;&nbsp;&nbsp; | Email: info@steaven.tech</h3>
+    <img class="icon" src="Resources/fb.webp" height="50px" width="50px" >
+    <img class="icon" src="Resources/tw.webp" height="50px" width="50px">
+    <img class="icon" src="Resources/inst.jpeg" height="50px" width="50px">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
